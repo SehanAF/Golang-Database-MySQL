@@ -1,4 +1,4 @@
-package golang_mysql
+package golang_database
 
 import (
 	"context"

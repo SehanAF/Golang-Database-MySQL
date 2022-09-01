@@ -1,4 +1,4 @@
-package golang_mysql
+package golang_database
 
 import (
 	"database/sql"
@@ -8,7 +8,7 @@ import (
 )
 
 func TestEmpty(t *testing.T) {
-	db, err := sql.Open("mysql", "root:VasylRagnar32145@tcp(localhost:3306)/golang_mysql")
+	db, err := sql.Open("mysql", "root:VasylRagnar32145@tcp(localhost:3306)/golang_database")
 	if err != nil {
 		panic(err)
 	}
